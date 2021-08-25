@@ -5,7 +5,7 @@ ImportantStats = {}
 
 ImportantStats["WARRIORArms"] = L["WARRIORArms"]
 ImportantStats["WARRIORFury"] = L["WARRIORFury"]
-ImportantStats["WARRIORProtection"] = 		L["WARRIORProtection"]
+ImportantStats["WARRIORProtection"] = L["WARRIORProtection"]
 
 ImportantStats["PALADINHoly"] = L["PALADINHoly"]
 ImportantStats["PALADINProtection"] = L["PALADINProtection"]
