@@ -32,24 +32,24 @@ ImportantStats["MAGEArcane"] = L["MAGEArcane"]
 ImportantStats["MAGEFire"] = L["MAGEFire"]
 ImportantStats["MAGEFrost"] = L["MAGEFrost"]
 
-ImportantStats["WARLOCKAffliction"] = "Mastery > Intellect > Haste > Critical Strike > Versatility"
-ImportantStats["WARLOCKDemonology"] = "Haste > Intellect > Critical Strike > Mastery > Versatility"
-ImportantStats["WARLOCKDestruction"] = "Intellect > Haste > Critical Strike > Versatility > Mastery"
+ImportantStats["WARLOCKAffliction"] = L["WARLOCKAffliction"]
+ImportantStats["WARLOCKDemonology"] = L["WARLOCKDemonology"]
+ImportantStats["WARLOCKDestruction"] = L["WARLOCKDestruction"]
 
-ImportantStats["DRUIDBalance"] = "Haste > Intellect > Critical Strike > Versatility > Mastery"
-ImportantStats["DRUIDFeral"] = "Agility > Mastery > Critical Strike > Versatility > Haste"
-ImportantStats["DRUIDGuardian"] = "Versatility > Mastery > Haste > Agility > Critical Strike"
-ImportantStats["DRUIDRestoration"] = "Intellect > Haste > Critical Strike > Mastery > Versatility"
+ImportantStats["DRUIDBalance"] = L["DRUIDBalance"]
+ImportantStats["DRUIDFeral"] = L["DRUIDFeral"]
+ImportantStats["DRUIDGuardian"] = L["DRUIDGuardian"]
+ImportantStats["DRUIDRestoration"] = L["DRUIDRestoration"]
 
-ImportantStats["MONKBrewmaster"] = "Haste to 30% > Critical Strike = Mastery > Agility > Versatility"
-ImportantStats["MONKMistweaver"] = "Intellect > Versatility > Critical Strike > Haste = Mastery"
-ImportantStats["MONKFistweaver"] = "Intellect > Versatility > Haste > Critical Strike > Mastery"
-ImportantStats["MONKWindwalker"] = "Agility > Mastery > Versatility > Critical Strike > Haste"
+ImportantStats["MONKBrewmaster"] = L["MONKBrewmaster"]
+ImportantStats["MONKMistweaver"] = L["MONKMistweaver"]
+ImportantStats["MONKFistweaver"] = L["MONKFistweaver"]
+ImportantStats["MONKWindwalker"] = L["MONKWindwalker"]
 
-ImportantStats["DEATHKNIGHTBlood"] = "Strength > Haste > Critical Strike > Versatility > Mastery"
-ImportantStats["DEATHKNIGHTFrost"] = "Strength > Haste to 20% > Critical Strike to 25% > Versatility > Mastery"
-ImportantStats["DEATHKNIGHTUnholy"] = "Strength > Critical Strike > Haste to 18% > Mastery > Versatility"
-ImportantStats["DEATHKNIGHTShadows"] = "Strength > Haste > Mastery > Critical Strike > Versatility"
+ImportantStats["DEATHKNIGHTBlood"] = L["DEATHKNIGHTBlood"]
+ImportantStats["DEATHKNIGHTFrost"] = L["DEATHKNIGHTFrost"]
+ImportantStats["DEATHKNIGHTUnholy"] = L["DEATHKNIGHTUnholy"]
+ImportantStats["DEATHKNIGHTShadows"] = L["DEATHKNIGHTShadows"]
 
 ImportantStats["DEMONHUNTERHavoc"] =  L["DEMONHUNTERHavoc"]
 ImportantStats["DEMONHUNTERVengeance"] = L["DEMONHUNTERVengeance"]
@@ -78,7 +78,11 @@ function ImportantStatsFrameCreate(frame)
 		frame:SetBackdropColor(0, 0, 0, 1)
 		frame:SetFrameStrata("TOOLTIP")
 		frame:SetWidth(PaperDollFrame:GetWidth() - 50) 
-		frame:SetHeight(25)
+		if frame == PaperDollFrame then
+			frame:SetHeight(25)
+		else
+			frame:SetHeight(60)
+		end
 		ImportantStatsText:ClearAllPoints()
 		ImportantStatsText:SetAllPoints(frame) 
 		ImportantStatsText:SetJustifyH("CENTER")
