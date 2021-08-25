@@ -3,34 +3,34 @@ local L = me.L
 
 ImportantStats = {}
 
-ImportantStats["WARRIORArms"] = "Mastery > Strength > Versatility > Haste > Critical Strike"
-ImportantStats["WARRIORFury"] = "Strength > Haste to 50% > Mastery > Versatility > Critical Strike"
-ImportantStats["WARRIORProtection"] = "Strength > Haste > Versatility > Mastery > Critical Strike"
+ImportantStats["WARRIORArms"] = L["WARRIORArms"]
+ImportantStats["WARRIORFury"] = L["WARRIORFury"]
+ImportantStats["WARRIORProtection"] = 		L["WARRIORProtection"]
 
-ImportantStats["PALADINHoly"] = "Intellect > Critical Strike > Versatility > Mastery > Haste"
-ImportantStats["PALADINProtection"] = "Haste > Versatility > Mastery > Critical Strike"
-ImportantStats["PALADINRetribution"] = "Strength > Haste to 20% > Critical Strike = Versatility > Mastery"
+ImportantStats["PALADINHoly"] = L["PALADINHoly"]
+ImportantStats["PALADINProtection"] = L["PALADINProtection"]
+ImportantStats["PALADINRetribution"] = L["PALADINRetribution"]
 
-ImportantStats["HUNTERBeast Mastery"] = "Agility > Mastery > Haste > Critical Strike > Versatility"
-ImportantStats["HUNTERMarksmanship"] = "Mastery > Agility > Haste > Critical Strike > Versatility"
-ImportantStats["HUNTERSurvival"] = "Agility > Haste > Versatility > Critical Strike > Mastery"
+ImportantStats["HUNTERBeast Mastery"] = L["HUNTERBeast Mastery"]
+ImportantStats["HUNTERMarksmanship"] = L["HUNTERMarksmanship"]
+ImportantStats["HUNTERSurvival"] = L["HUNTERSurvival"]
 
-ImportantStats["ROGUEAssassination"] = "Agility > Mastery > Critical Strike > Versatility > Haste"
-ImportantStats["ROGUEOutlaw"] = "Agility > Versatility > Critical Strike > Mastery > Haste"
-ImportantStats["ROGUESubtlety"] = "Agility > Versatility > Mastery > Critical Strike > Haste"
+ImportantStats["ROGUEAssassination"] = L["ROGUEAssassination"]
+ImportantStats["ROGUEOutlaw"] = L["ROGUEOutlaw"]
+ImportantStats["ROGUESubtlety"] = L["ROGUESubtlety"]
 
-ImportantStats["PRIESTDiscipline"] = "Intellect > Haste > Critical Strike > Mastery > Versatility"
-ImportantStats["PRIESTHoly"] = "Intellect > Mastery > Critical Strike > Haste > Versatility"
-ImportantStats["PRIESTShadow"] = "Critical Strike > Haste > Mastery > Intellect > Versatility"
-ImportantStats["PRIESTMadness"] = "Haste > Critical Strike > Mastery > Intellect > Versatility"
+ImportantStats["PRIESTDiscipline"] = L["PRIESTDiscipline"]
+ImportantStats["PRIESTHoly"] = L["PRIESTHoly"]
+ImportantStats["PRIESTShadow"] = L["PRIESTShadow"]
+ImportantStats["PRIESTMadness"] = L["PRIESTMadness"]
 
-ImportantStats["SHAMANElemental"] = "Intellect > Critical Strike > Haste > Versatility > Mastery"
-ImportantStats["SHAMANEnhancement"] = "Agility > Mastery > Haste > Versatility > Critical Strike"
-ImportantStats["SHAMANRestoration"] = "Intellect > Mastery > Critical Strike > Haste > Versatility"
+ImportantStats["SHAMANElemental"] = L["SHAMANElemental"]
+ImportantStats["SHAMANEnhancement"] = L["SHAMANEnhancement"]
+ImportantStats["SHAMANRestoration"] = L["SHAMANRestoration"]
 
-ImportantStats["MAGEArcane"] = "Intellect > Mastery > Critical Strike > Versatility > Haste"
-ImportantStats["MAGEFire"] = "Critical Strike > Intellect > Mastery > Versatility > Haste"
-ImportantStats["MAGEFrost"] = "Intellect > Haste > Critical Strike > Versatility > Mastery"
+ImportantStats["MAGEArcane"] = L["MAGEArcane"]
+ImportantStats["MAGEFire"] = L["MAGEFire"]
+ImportantStats["MAGEFrost"] = L["MAGEFrost"]
 
 ImportantStats["WARLOCKAffliction"] = "Mastery > Intellect > Haste > Critical Strike > Versatility"
 ImportantStats["WARLOCKDemonology"] = "Haste > Intellect > Critical Strike > Mastery > Versatility"
