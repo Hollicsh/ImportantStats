@@ -1,8 +1,8 @@
-## Interface: 90205
+## Interface: 90207
 ## Title:|cffd6266cImportantStats|r
 ## Notes: Displays stat priority based on WoWHead
 ## Author: BloodDragon2580
-## Version: 1.7
+## Version: 1.8
 
 # Libraries
 Library\LibStub\LibStub.lua
