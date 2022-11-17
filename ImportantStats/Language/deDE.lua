@@ -103,3 +103,8 @@ L["DEATHKNIGHTFrost"] = "Stärke > Meisterschaft > Krit > Tempo = Vielseitigkeit
 L["DEATHKNIGHTUnholy"] = "Single Target: Stärke > Meisterschaft > Tempo > Krit = Vielseitigkeit \n Multiple Target: Stärke > Meisterschaft > Krit > Tempo > Vielseitigkeit"
 --DEATHKNIGHTShadows
 L["DEATHKNIGHTShadows"] = "Stärke > Tempo > Meisterschaft > Krit > Vielseitigkeit"
+
+--EVOKERDevastation
+L["EVOKERDevastation"] = "Intelligenz > Meisterschaft > Tempo > Krit > Vielseitigkeit"
+--EVOKERPreservation
+L["EVOKERPreservation"] = "Myth+: Intelligenz > Krit > Vielseitigkeit > Tempo > Meisterschaft \n Raid: Intelligenz > Krit > Meisterschaft > Vielseitigkeit > Tempo"

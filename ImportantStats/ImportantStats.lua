@@ -54,6 +54,9 @@ ImportantStats["DEATHKNIGHTShadows"] = L["DEATHKNIGHTShadows"]
 ImportantStats["DEMONHUNTERHavoc"] =  L["DEMONHUNTERHavoc"]
 ImportantStats["DEMONHUNTERVengeance"] = L["DEMONHUNTERVengeance"]
 
+ImportantStats["EVOKERDevastation"] =  L["EVOKERDevastation"]
+ImportantStats["EVOKERPreservation"] = L["EVOKERPreservation"]
+
 function ImportantStatsFrameOnEvent(self, event, arg1)
 	if event == "ADDON_LOADED" and arg1 == "ImportantStats" then
 		self:UnregisterEvent("ADDON_LOADED")
@@ -170,6 +173,10 @@ function GetSpecializationName(id)
 		spec = "Havoc"
 	elseif id == 581 then 
 		spec = "Vengeance"
+	elseif id == 1467 then 
+		spec = "Devastation"
+	elseif id == 1468 then 
+		spec = "Preservation"
 	end
 	return spec
 end

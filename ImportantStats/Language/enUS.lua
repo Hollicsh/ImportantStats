@@ -103,3 +103,8 @@ L["DEATHKNIGHTFrost"] = "Strength > Mastery > Crit > Haste = Versatility"
 L["DEATHKNIGHTUnholy"] = "Single Target: Strength > Mastery > Haste > Crit = Versatility \n Multiple Target: Strength > Mastery > Crit > Haste > Versatility"
 --DEATHKNIGHTShadows
 L["DEATHKNIGHTShadows"] = "Strength > Haste > Mastery > Crit > Versatility"
+
+--EVOKERDevastation
+L["EVOKERDevastation"] = "Intellect > Mastery > Haste > Critical Strike > Versatility"
+--EVOKERPreservation
+L["EVOKERPreservation"] = "Myth+: Intellect > Critical Strike > Versatility > Haste > Mastery \n Raid: Intellect > Critical Strike > Mastery > Versatility > Haste"
