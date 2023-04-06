@@ -93,7 +93,7 @@ L["MONKMistweaver"] = "Myth+: Intelligenz > Tempo > Meisterschaft > Vielseitigke
 L["MONKWindwalker"] = "Waffen Schaden > Beweglichkeit > Vielseitigkeit = Kritischer Trefferwert > Meisterschaft > Tempo"
 
 --DEATHKNIGHTBlood
-L["DEATHKNIGHTBlood"] = "Item Level > Tempo > Kritischer Trefferwertical Strike = Meisterschaft > Vielseitigkeit"
+L["DEATHKNIGHTBlood"] = "Item Level > Tempo > Kritischer Trefferwert = Meisterschaft > Vielseitigkeit"
 --DEATHKNIGHTFrost
 L["DEATHKNIGHTFrost"] = "Kritischer Trefferwert > Meisterschaft > Tempo > Vielseitigkeit"
 --DEATHKNIGHTUnholy

@@ -93,7 +93,7 @@ L["MONKMistweaver"] = "Myth+: Intellect > Haste > Mastery > Versatility > Critic
 L["MONKWindwalker"] = "Weapon Damage > Agility > Versatility = Critical Strike > Mastery > Haste"
 
 --DEATHKNIGHTBlood
-L["DEATHKNIGHTBlood"] = "Item Level > Haste > Critical Strikeical Strike = Mastery > Versatility"
+L["DEATHKNIGHTBlood"] = "Item Level > Haste > Critical Strike = Mastery > Versatility"
 --DEATHKNIGHTFrost
 L["DEATHKNIGHTFrost"] = "Critical Strike > Mastery > Haste > Versatility"
 --DEATHKNIGHTUnholy
