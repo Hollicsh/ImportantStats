@@ -6,105 +6,100 @@ local L = me.L
 L[myName] = "|cff0088ffImportantStats|cff808080: |r"
 --Haste = Tempo
 --Versatility = Vielseitigkeit
---Crit = Kritischer Trefferwert
+--Critical Strike = Kritischer Trefferwert
 --Mastery = Meisterschaft
 --Strength = Stärke
 --Agility = Beweglichkeit
 --Intellect = Intelligenz
 --Spell Power = Zaubermacht
 --Survivability = Überleben
+--Weapon Damage = Waffen Schaden
 
 --DEMONHUNTERHavoc
-L["DEMONHUNTERHavoc"] = "Myth+: Item Level >= Haste >= Versatility > Crit > Mastery \n Raid: Item Level >= Haste >= Versatility > Crit > Mastery"
+L["DEMONHUNTERHavoc"] = "Single Target: Agility > Critical Strike > Mastery > Haste > Versatility \n Multiple Target: Agility > Critical Strike > Mastery > Versatility > Haste"
 --DEMONHUNTERVengeance
-L["DEMONHUNTERVengeance"] = "Myth+: Item Level > Haste > Versatility > Crit > Mastery \n Raid:  Item Level > Haste >= Versatility > Mastery > Crit"
+L["DEMONHUNTERVengeance"] = "Agility > Haste > Versatility = Critical Strike > Mastery"
 
 --WARRIORArms
-L["WARRIORArms"] = "Strength > Crit > Mastery > Vielseitigkeit > Haste"
+L["WARRIORArms"] = "Strength > Critical Strike > Haste > Mastery > Versatility"
 --WARRIORFury
-L["WARRIORFury"] = "Strength > Haste > Mastery > Crit > Vielseitigkeit"
+L["WARRIORFury"] = "Strength > Haste > Mastery > Critical Strike > Versatility"
 --WARRIORProtection
-L["WARRIORProtection"] = "Item Level > Strength > Haste > Vielseitigkeit > Crit > Mastery"
+L["WARRIORProtection"] = "Strength > Haste > Versatility ≥ Critical Strike > Mastery"
 
 --PALADINHoly
-L["PALADINHoly"] = "Shock Barrier/Crusader Strike: Haste > Mastery > Versatility > Crit \n Holy Light/Resplendent Light: Crit > Haste > Mastery > Versatility"
+L["PALADINHoly"] = "Raid: Intellect > Haste > Mastery > Versatility > Critical Strike \n Myth+: Intellect > Haste > Versatility > Critical Strike > Mastery"
 --PALADINProtection
-L["PALADINProtection"] = "Item Level > Haste > Mastery = Vielseitigkeit > Crit"
+L["PALADINProtection"] = "Strength > Haste ≥ Mastery ≥ Versatility > Critical Strike"
 --PALADINRetribution
-L["PALADINRetribution"] = "Strength > Haste > Crit ~= Vielseitigkeit ~= Mastery"
+L["PALADINRetribution"] = "Strength > Versatility > Critical Strike = Haste = Mastery"
 
 --HUNTERBeast Mastery
-L["HUNTERBeast Mastery"] = "Weapon DPS > Agility > Haste >= Crit >= Versatility >= Mastery"
+L["HUNTERBeast Mastery"] = "Mastery = Haste = Critical Strike > Versatility"
 --HUNTERMarksmanship
-L["HUNTERMarksmanship"] = "Single Target with Lonewolf: Weapon DPS > Agility > Crit > Mastery > Haste >= Versatility \n Single Target with Pet: Weapon DPS > Agility > Crit > Mastery >= Haste >= Versatility \n Multiple Target: Weapon DPS > Agility > Crit >= Mastery > Haste >= Versatility"
+L["HUNTERMarksmanship"] = "Mastery > Critical Strike > Versatility > Haste"
 --HUNTERSurvival
-L["HUNTERSurvival"] = "Haste > Crit ~ Versatility > Mastery"
+L["HUNTERSurvival"] = "Haste > Critical Strike > Versatility > Mastery"
 
 --ROGUEAssassination
-L["ROGUEAssassination"] = "Haste > Crit > Versatility > Mastery"
+L["ROGUEAssassination"] = "Critical Strike > Mastery > Versatility > Haste"
 --ROGUEOutlaw
-L["ROGUEOutlaw"] = "Versatility > Crit > Haste > Mastery"
+L["ROGUEOutlaw"] = "Versatility > Critical Strike > Mastery > Haste"
 --ROGUESubtlety
-L["ROGUESubtlety"] = "Versatlity > Crit > Haste > Mastery"
+L["ROGUESubtlety"] = "Critical Strike > Mastery > Versatility > Haste"
 
 --PRIESTDiscipline
-L["PRIESTDiscipline"] = "Myth+: Intellect > Haste > Crit/Versatility > Mastery \n Raid: Item level> Haste > Mastery > Crit/Versatility"
+L["PRIESTDiscipline"] = "Intellect > Haste > Critical Strike > Versatility > Mastery"
 --PRIESTHoly
-L["PRIESTHoly"] = "Myth+: Item Level > Haste > Crit/Versatility > Mastery \n Raid: Item Level > Mastery > Crit/Versatility > Haste"
+L["PRIESTHoly"] = "Myth+: Intellect > Critical Strike = Haste > Versatility > Mastery \n Raid: Intellect > Mastery = Critical Strike > Versatility > Haste"
 --PRIESTShadow
-L["PRIESTShadow"] = "Intellect > Haste > Mastery >= Crit > Versatility"
---PRIESTMadness
-L["PRIESTMadness"] = "Haste > Crit > Mastery > Intellect > Versatility"
+L["PRIESTShadow"] = "Intellect > Haste > Mastery > Critical Strike = Versatility"
 
 --SHAMANElemental
-L["SHAMANElemental"] = "Single Target: Versatility > Crit > Haste > Mastery \n Multiple Target: Crit > Haste > Versatility > Mastery"
+L["SHAMANElemental"] = "Single Target: Intellect > Mastery > Haste > Versatility > Critical Strike \n Multiple Target: Intellect > Haste > Critical Strike > Versatility > Mastery"
 --SHAMANEnhancement
-L["SHAMANEnhancement"] = "Agility > Haste > Crit = Versatility > Mastery"
+L["SHAMANEnhancement"] = "Agility > Mastery = Haste > Versatility > Critical Strike"
 --SHAMANRestoration
-L["SHAMANRestoration"] = "Item Level > Crit/Versatility > Mastery/Haste"
+L["SHAMANRestoration"] = "Intellect > Versatility = Critical Strike > Haste = Mastery"
 
 --MAGEArcane
-L["MAGEArcane"] = "Mastery > Crit > Versatility > Haste"
+L["MAGEArcane"] = "Intellect > Critical Strike > Mastery > Versatility > Haste"
 --MAGEFire
-L["MAGEFire"] = "Haste > Versatility = Mastery > Crit"
+L["MAGEFire"] = "Intellect > Haste > Mastery > Versatility > Critical Strike"
 --MAGEFrost
-L["MAGEFrost"] = "Crit (to 22%) > Haste > Versatility > Mastery"
+L["MAGEFrost"] = "Intellect > Mastery > Haste > Critical Strike (to 33.34%) > Versatility"
 
 --WARLOCKAffliction
-L["WARLOCKAffliction"] = "Intellect > Spell Power > Mastery > Haste > Crit > Versatility"
+L["WARLOCKAffliction"] = "Intellect > Mastery > Haste > Critical Strike > Versatility"
 --WARLOCKDemonology
-L["WARLOCKDemonology"] = "Item Level > Intellect > Haste > Mastery/Crit > Versatility"
+L["WARLOCKDemonology"] = "Single Target: Intellect > Haste > Critical Strike > Mastery = Versatility \n Multiple Target: Intellect > Haste > Critical Strike = Mastery > Versatility"
 --WARLOCKDestruction
-L["WARLOCKDestruction"] = "Intellect > Haste = Mastery > Crit > Versatility"
+L["WARLOCKDestruction"] = "Intellect > Haste ≥ Mastery > Critical Strike > Versatility"
 
 --DRUIDBalance
-L["DRUIDBalance"] = "Intellect > Mastery > Haste = Crit = Versatility"
+L["DRUIDBalance"] = "Intellect > Mastery > Haste > Critical Strike > Versatility"
 --DRUIDFeral
-L["DRUIDFeral"] = "Agility > Crit > Mastery > Versatility = Haste"
+L["DRUIDFeral"] = "Agility > Critical Strike > Mastery > Haste > Versatility"
 --DRUIDGuardian
-L["DRUIDGuardian"] = "Survivability: Item Level > Versatility > Mastery/Haste > Crit \n DPS: Agility > Versatility > Haste > Crit > Mastery"
+L["DRUIDGuardian"] = "Survivability: Agility > Haste > Versatility > Mastery > Critical Strike \n DPS: Agility > Versatility = Haste > Critical Strike = Mastery"
 --DRUIDRestoration
-L["DRUIDRestoration"] = "Item Level > Mastery > Haste > Versatility = Crit"
+L["DRUIDRestoration"] = "Raid: Intellect > Haste > Mastery > Critical Strike = Versatility \n Dungeon Healing: Intellect > Mastery = Haste > Versatility > Critical Strike \n Dungeon Damage Dealing: Intellect > Haste > Versatility > Critical Strike > Mastery"
 
 --MONKBrewmaster
-L["MONKBrewmaster"] = "Item Level > Versatility > Crit > Mastery > Haste"
+L["MONKBrewmaster"] = "Defensive: Agility > Versatility = Mastery = Critical Strike > Haste \n Offensive: Agility > Versatility = Critical Strike > Mastery > Haste"
 --MONKMistweaver
-L["MONKMistweaver"] = "Myth+: Haste = Versatility = Crit = Mastery \n Raid: Crit > Versatility > Haste > Mastery"
---MONKFistweaver
-L["MONKFistweaver"] = "Intellect > Versatility > Haste > Crit > Mastery"
+L["MONKMistweaver"] = "Myth+: Intellect > Haste > Mastery > Versatility > Critical Strike \n Raid: Intellect > Haste > Critical Strike = Mastery > Versatility"
 --MONKWindwalker
-L["MONKWindwalker"] = "Agility > Versatility > Mastery = Crit > Haste"
+L["MONKWindwalker"] = "Weapon Damage > Agility > Versatility = Critical Strike > Mastery > Haste"
 
 --DEATHKNIGHTBlood
-L["DEATHKNIGHTBlood"] = "Item Level > Versatility > Haste > Crit = Mastery"
+L["DEATHKNIGHTBlood"] = "Item Level > Haste > Critical Strikeical Strike = Mastery > Versatility"
 --DEATHKNIGHTFrost
-L["DEATHKNIGHTFrost"] = "Strength > Mastery > Crit > Haste = Versatility"
+L["DEATHKNIGHTFrost"] = "Critical Strike > Mastery > Haste > Versatility"
 --DEATHKNIGHTUnholy
-L["DEATHKNIGHTUnholy"] = "Single Target: Strength > Mastery > Haste > Crit = Versatility \n Multiple Target: Strength > Mastery > Crit > Haste > Versatility"
---DEATHKNIGHTShadows
-L["DEATHKNIGHTShadows"] = "Strength > Haste > Mastery > Crit > Versatility"
+L["DEATHKNIGHTUnholy"] = "Single Target: Haste > Mastery > Critical Strike > Versatility \n Multiple Target: Mastery > Critical Strike > Haste > Versatility"
 
 --EVOKERDevastation
 L["EVOKERDevastation"] = "Intellect > Mastery > Haste > Critical Strike > Versatility"
 --EVOKERPreservation
-L["EVOKERPreservation"] = "Myth+: Intellect > Critical Strike > Versatility > Haste > Mastery \n Raid: Intellect > Critical Strike > Mastery > Versatility > Haste"
+L["EVOKERPreservation"] = "Myth+: Intellect > Critical Strike > Haste > Versatility > Mastery \n Raid: Intellect > Mastery > Critical Strike > Versatility > Haste"
