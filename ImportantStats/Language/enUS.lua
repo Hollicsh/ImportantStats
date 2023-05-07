@@ -18,7 +18,7 @@ L[myName] = "|cff0088ffImportantStats|cff808080: |r"
 --DEMONHUNTERHavoc
 L["DEMONHUNTERHavoc"] = "Single Target: Agility > Critical Strike > Mastery > Haste > Versatility \n Multiple Target: Agility > Critical Strike > Mastery > Versatility > Haste"
 --DEMONHUNTERVengeance
-L["DEMONHUNTERVengeance"] = "Agility > Haste > Versatility = Critical Strike > Mastery"
+L["DEMONHUNTERVengeance"] = "Agility > Haste > Critical Strike > Versatility > Mastery"
 
 --WARRIORArms
 L["WARRIORArms"] = "Strength > Critical Strike > Haste > Mastery > Versatility"
@@ -32,14 +32,14 @@ L["PALADINHoly"] = "Raid: Intellect > Haste > Mastery > Versatility > Critical S
 --PALADINProtection
 L["PALADINProtection"] = "Strength > Haste ≥ Mastery ≥ Versatility > Critical Strike"
 --PALADINRetribution
-L["PALADINRetribution"] = "Strength > Versatility > Critical Strike = Haste = Mastery"
+L["PALADINRetribution"] = "Strength > Versatility > Critical Strike = Haste > Mastery"
 
 --HUNTERBeast Mastery
-L["HUNTERBeast Mastery"] = "Mastery = Haste = Critical Strike > Versatility"
+L["HUNTERBeast Mastery"] = "Haste = Critical Strike > Mastery > Versatility"
 --HUNTERMarksmanship
-L["HUNTERMarksmanship"] = "Mastery > Critical Strike > Versatility > Haste"
+L["HUNTERMarksmanship"] = "Haste > Critical Strike > Mastery > Versatility"
 --HUNTERSurvival
-L["HUNTERSurvival"] = "Haste > Critical Strike > Versatility > Mastery"
+L["HUNTERSurvival"] = "Haste > Critical Strike = Versatility > Mastery"
 
 --ROGUEAssassination
 L["ROGUEAssassination"] = "Critical Strike > Mastery > Versatility > Haste"
@@ -58,14 +58,14 @@ L["PRIESTShadow"] = "Intellect > Haste > Mastery > Critical Strike = Versatility
 --SHAMANElemental
 L["SHAMANElemental"] = "Single Target: Intellect > Mastery > Haste > Versatility > Critical Strike \n Multiple Target: Intellect > Haste > Critical Strike > Versatility > Mastery"
 --SHAMANEnhancement
-L["SHAMANEnhancement"] = "Agility > Mastery = Haste > Versatility > Critical Strike"
+L["SHAMANEnhancement"] = "Agility > Mastery = Haste > Critical Strike > Versatility"
 --SHAMANRestoration
 L["SHAMANRestoration"] = "Intellect > Versatility = Critical Strike > Haste = Mastery"
 
 --MAGEArcane
-L["MAGEArcane"] = "Intellect > Critical Strike > Mastery > Versatility > Haste"
+L["MAGEArcane"] = "Intellect > Critical Strike > Mastery > Haste > Versatility"
 --MAGEFire
-L["MAGEFire"] = "Intellect > Haste > Mastery > Versatility > Critical Strike"
+L["MAGEFire"] = "Intellect > Haste > Versatility > Mastery > Critical Strike"
 --MAGEFrost
 L["MAGEFrost"] = "Intellect > Mastery > Haste > Critical Strike (to 33.34%) > Versatility"
 
@@ -88,7 +88,7 @@ L["DRUIDRestoration"] = "Raid: Intellect > Haste > Mastery > Critical Strike = V
 --MONKBrewmaster
 L["MONKBrewmaster"] = "Defensive: Agility > Versatility = Mastery = Critical Strike > Haste \n Offensive: Agility > Versatility = Critical Strike > Mastery > Haste"
 --MONKMistweaver
-L["MONKMistweaver"] = "Myth+: Intellect > Haste > Mastery > Versatility > Critical Strike \n Raid: Intellect > Haste > Critical Strike = Mastery > Versatility"
+L["MONKMistweaver"] = "Myth+: Intellect > Haste > Mastery > Versatility > Critical Strike \n Raid: Intellect > Haste > Critical Strike > Versatility > Mastery"
 --MONKWindwalker
 L["MONKWindwalker"] = "Weapon Damage > Agility > Versatility = Critical Strike > Mastery > Haste"
 
