@@ -32,7 +32,7 @@ L["PALADINHoly"] = "Raid: Intelligenz > Tempo > Meisterschaft > Vielseitigkeit >
 --PALADINProtection
 L["PALADINProtection"] = "Stärke > Tempo ≥ Meisterschaft ≥ Vielseitigkeit > Kritischer Trefferwert"
 --PALADINRetribution
-L["PALADINRetribution"] = "Stärke > Vielseitigkeit > Kritischer Trefferwert = Tempo > Meisterschaft"
+L["PALADINRetribution"] = "Stärke > Tempo > Vielseitigkeit = Kritischer Trefferwert > Meisterschaft"
 
 --HUNTERBeast Meisterschaft
 L["HUNTERBeast Meisterschaft"] = "Tempo = Kritischer Trefferwert > Meisterschaft > Vielseitigkeit"
@@ -93,7 +93,7 @@ L["MONKMistweaver"] = "Myth+: Intelligenz > Tempo > Meisterschaft > Vielseitigke
 L["MONKWindwalker"] = "Waffen Schaden > Beweglichkeit > Vielseitigkeit = Kritischer Trefferwert > Meisterschaft > Tempo"
 
 --DEATHKNIGHTBlood
-L["DEATHKNIGHTBlood"] = "Item Level > Tempo > Kritischer Trefferwert = Meisterschaft > Vielseitigkeit"
+L["DEATHKNIGHTBlood"] = "Item Level > Tempo = Kritischer Trefferwert = Vielseitigkeit = Meisterschaft"
 --DEATHKNIGHTFrost
 L["DEATHKNIGHTFrost"] = "Kritischer Trefferwert > Meisterschaft > Tempo > Vielseitigkeit"
 --DEATHKNIGHTUnholy

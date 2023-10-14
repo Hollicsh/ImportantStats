@@ -32,7 +32,7 @@ L["PALADINHoly"] = "Raid: Intellect > Haste > Mastery > Versatility > Critical S
 --PALADINProtection
 L["PALADINProtection"] = "Strength > Haste ≥ Mastery ≥ Versatility > Critical Strike"
 --PALADINRetribution
-L["PALADINRetribution"] = "Strength > Versatility > Critical Strike = Haste > Mastery"
+L["PALADINRetribution"] = "Strength > Haste > Versatility = Critical Strike > Mastery"
 
 --HUNTERBeast Mastery
 L["HUNTERBeast Mastery"] = "Haste = Critical Strike > Mastery > Versatility"
@@ -93,7 +93,7 @@ L["MONKMistweaver"] = "Myth+: Intellect > Haste > Mastery > Versatility > Critic
 L["MONKWindwalker"] = "Weapon Damage > Agility > Versatility = Critical Strike > Mastery > Haste"
 
 --DEATHKNIGHTBlood
-L["DEATHKNIGHTBlood"] = "Item Level > Haste > Critical Strike = Mastery > Versatility"
+L["DEATHKNIGHTBlood"] = "Item Level > Haste = Critical Strike = Versatility = Mastery"
 --DEATHKNIGHTFrost
 L["DEATHKNIGHTFrost"] = "Critical Strike > Mastery > Haste > Versatility"
 --DEATHKNIGHTUnholy
