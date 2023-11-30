@@ -56,6 +56,7 @@ ImportantStats["DEMONHUNTERVengeance"] = L["DEMONHUNTERVengeance"]
 
 ImportantStats["EVOKERDevastation"] =  L["EVOKERDevastation"]
 ImportantStats["EVOKERPreservation"] = L["EVOKERPreservation"]
+ImportantStats["EVOKERAugmentation"] = L["EVOKERAugmentation"]
 
 function ImportantStatsFrameOnEvent(self, event, arg1)
 	if event == "ADDON_LOADED" and arg1 == "ImportantStats" then
@@ -177,6 +178,8 @@ function GetSpecializationName(id)
 		spec = "Devastation"
 	elseif id == 1468 then 
 		spec = "Preservation"
+	elseif id == 1473 then 
+		spec = "Augmentation"
 	end
 	return spec
 end

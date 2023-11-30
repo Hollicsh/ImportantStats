@@ -35,11 +35,11 @@ L["PALADINProtection"] = "Stärke > Tempo ≥ Meisterschaft ≥ Vielseitigkeit >
 L["PALADINRetribution"] = "Stärke > Tempo > Vielseitigkeit = Kritischer Trefferwert > Meisterschaft"
 
 --HUNTERBeast Meisterschaft
-L["HUNTERBeast Meisterschaft"] = "Tempo > Kritischer Trefferwert > Meisterschaft > Tempo = Kritischer Trefferwert > Vielseitigkeit"
+L["HUNTERBeast Meisterschaft"] = "Tempo (30%) > Kritischer Trefferwert (44%) > Meisterschaft (5400) > Vielseitigkeit"
 --HUNTERMarksmanship
-L["HUNTERMarksmanship"] = "Tempo > Kritischer Trefferwert > Meisterschaft > Vielseitigkeit > Tempo = Kritischer Trefferwert"
+L["HUNTERMarksmanship"] = "Tempo (30%) > Kritischer Trefferwert (44%) > Meisterschaft > Vielseitigkeit"
 --HUNTERSurvival
-L["HUNTERSurvival"] = "Tempo > Kritischer Trefferwert > Vielseitigkeit > Tempo = Kritischer Trefferwert > Meisterschaft"
+L["HUNTERSurvival"] = "Tempo (30%) > Kritischer Trefferwert (44%) > Vielseitigkeit > Tempo = Kritischer Trefferwert > Meisterschaft"
 
 --ROGUEAssassination
 L["ROGUEAssassination"] = "Kritischer Trefferwert > Meisterschaft > Vielseitigkeit > Tempo"
@@ -58,7 +58,7 @@ L["PRIESTShadow"] = "Intelligenz > Tempo > Meisterschaft > Kritischer Trefferwer
 --SHAMANElemental
 L["SHAMANElemental"] = "Single Target: Intelligenz > Meisterschaft > Tempo > Vielseitigkeit > Kritischer Trefferwert \n Multiple Target: Intelligenz > Tempo > Kritischer Trefferwert > Vielseitigkeit > Meisterschaft"
 --SHAMANEnhancement
-L["SHAMANEnhancement"] = "Beweglichkeit > Meisterschaft > Tempo > Kritischer Trefferwert > Vielseitigkeit"
+L["SHAMANEnhancement"] = "Elementalist: Beweglichkeit > Meisterschaft > Tempo > Kritischer Trefferwert > Vielseitigkeit > Kritischer Trefferwert \n Storm: Beweglichkeit > Tempo > Meisterschaft > Kritischer Trefferwert > Vielseitigkeit"
 --SHAMANRestoration
 L["SHAMANRestoration"] = "Intelligenz > Vielseitigkeit = Kritischer Trefferwert > Tempo = Meisterschaft"
 
@@ -67,19 +67,19 @@ L["MAGEArcane"] = "Intelligenz > Kritischer Trefferwert > Meisterschaft > Tempo 
 --MAGEFire
 L["MAGEFire"] = "Intelligenz > Tempo > Kritischer Trefferwert > Vielseitigkeit > Meisterschaft"
 --MAGEFrost
-L["MAGEFrost"] = "Intelligenz > Meisterschaft > Tempo > Kritischer Trefferwert (to 33.34%) > Vielseitigkeit"
+L["MAGEFrost"] = "Intelligenz > Meisterschaft > Tempo > Kritischer Trefferwert (33.34%) > Vielseitigkeit"
 
 --WARLOCKAffliction
-L["WARLOCKAffliction"] = "Intelligenz > Tempo > Meisterschaft > Vielseitigkeit = Kritischer Trefferwert"
+L["WARLOCKAffliction"] = "Intelligenz > Tempo (30%) > Meisterschaft > Vielseitigkeit = Kritischer Trefferwert"
 --WARLOCKDemonology
-L["WARLOCKDemonology"] = "Intelligenz > Tempo > Kritischer Trefferwert = Vielseitigkeit > Meisterschaft"
+L["WARLOCKDemonology"] = "Intelligenz > Tempo (27%) > Kritischer Trefferwert = Vielseitigkeit > Meisterschaft"
 --WARLOCKDestruction
-L["WARLOCKDestruction"] = "Intelligenz > Tempo > Kritischer Trefferwert = Vielseitigkeit > Meisterschaft"
+L["WARLOCKDestruction"] = "Intelligenz > Tempo (30%) > Kritischer Trefferwert = Vielseitigkeit > Meisterschaft"
 
 --DRUIDBalance
 L["DRUIDBalance"] = "Intelligenz > Meisterschaft > Tempo > Kritischer Trefferwert > Vielseitigkeit"
 --DRUIDFeral
-L["DRUIDFeral"] = "Beweglichkeit > Meisterschaft > Kritischer Trefferwert > Tempo > Vielseitigkeit"
+L["DRUIDFeral"] = "Single Target: Beweglichkeit > Meisterschaft > Kritischer Trefferwert > Tempo > Vielseitigkeit \n Multiple Target: Beweglichkeit > Meisterschaft > Kritischer Trefferwert > Vielseitigkeit > Tempo"
 --DRUIDGuardian
 L["DRUIDGuardian"] = "Überleben: Beweglichkeit > Tempo > Vielseitigkeit > Meisterschaft > Kritischer Trefferwert \n DPS: Beweglichkeit > Vielseitigkeit = Tempo > Kritischer Trefferwert = Meisterschaft"
 --DRUIDRestoration
@@ -100,6 +100,8 @@ L["DEATHKNIGHTFrost"] = "Kritischer Trefferwert > Meisterschaft > Tempo > Vielse
 L["DEATHKNIGHTUnholy"] = "Single Target: Meisterschaft > Tempo > Kritischer Trefferwert > Vielseitigkeit \n Multiple Target: Meisterschaft > Kritischer Trefferwert > Tempo > Vielseitigkeit"
 
 --EVOKERDevastation
-L["EVOKERDevastation"] = "Intelligenz > Meisterschaft > Tempo > Kritischer Trefferwert > Vielseitigkeit"
+L["EVOKERDevastation"] = "Intelligenz > Kritischer Trefferwert >= Vielseitigkeit = Meisterschaft = Tempo"
 --EVOKERPreservation
 L["EVOKERPreservation"] = "Myth+: Intelligenz > Kritischer Trefferwert > Tempo > Vielseitigkeit > Meisterschaft \n Raid: Intelligenz > Meisterschaft > Kritischer Trefferwert > Vielseitigkeit > Tempo"
+--EVOKERAugmentation
+L["EVOKERAugmentation"] = "Intelligenz > Meisterschaft > Tempo > Kritischer Trefferwert > Vielseitigkeit"
