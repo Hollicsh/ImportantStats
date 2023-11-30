@@ -5,7 +5,7 @@
 ## Version: 3.5
 ## IconTexture: Interface\AddOns\ImportantStats\Media\Texture\logo
 
-#10.11.2023
+#30.11.2023
 
 
 # Libraries
