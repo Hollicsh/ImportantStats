@@ -2,7 +2,7 @@
 ## Title:|cffd6266cImportantStats|r
 ## Notes: Displays stat priority based on WoWHead
 ## Author: BloodDragon2580
-## Version: 3.8
+## Version: 3.9
 ## IconTexture: Interface\AddOns\ImportantStats\Media\Texture\logo
 
 #30.11.2023
@@ -27,5 +27,6 @@ Library\LibDBIcon-1.0\LibDBIcon-1.0.lua
 Language\Default.lua
 Language\enUS.lua
 Language\deDE.lua
+Language\itIT.lua
 
 ImportantStats.lua
