@@ -11,7 +11,7 @@ ImportantStats["PALADINHoly"] = L["PALADINHoly"]
 ImportantStats["PALADINProtection"] = L["PALADINProtection"]
 ImportantStats["PALADINRetribution"] = L["PALADINRetribution"]
 
-ImportantStats["HUNTERBeast Mastery"] = L["HUNTERBeast Mastery"]
+ImportantStats["HUNTERBeastMastery"] = L["HUNTERBeastMastery"]
 ImportantStats["HUNTERMarksmanship"] = L["HUNTERMarksmanship"]
 ImportantStats["HUNTERSurvival"] = L["HUNTERSurvival"]
 
@@ -135,7 +135,7 @@ function GetSpecializationName(id)
 	elseif id == 252 then 
 		spec = "Unholy"
 	elseif id == 253 then 
-		spec = "Beast Mastery"
+		spec = "BeastMastery"
 	elseif id == 254 then 
 		spec = "Marksmanship"
 	elseif id == 255 then 

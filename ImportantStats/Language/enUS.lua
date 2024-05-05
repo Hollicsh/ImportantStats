@@ -34,8 +34,8 @@ L["PALADINProtection"] = "Strength > Haste ≥ Mastery ≥ Versatility > Critica
 --PALADINRetribution
 L["PALADINRetribution"] = "Strength > Haste > Versatility = Critical Strike > Mastery"
 
---HUNTERBeast Mastery
-L["HUNTERBeast Mastery"] = "Haste (30%) > Critical Strike (44%) > Mastery (5400) > Versatility"
+--HUNTERBeastMastery
+L["HUNTERBeastMastery"] = "Haste (30%) > Critical Strike (44%) > Mastery (5400) > Versatility"
 --HUNTERMarksmanship
 L["HUNTERMarksmanship"] = "Haste (30%) > Critical Strike (44%) > Mastery > Versatility"
 --HUNTERSurvival

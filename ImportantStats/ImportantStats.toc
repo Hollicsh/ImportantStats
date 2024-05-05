@@ -2,7 +2,7 @@
 ## Title:|cffd6266cImportantStats|r
 ## Notes: Displays stat priority based on WoWHead
 ## Author: BloodDragon2580
-## Version: 3.9
+## Version: 4.0
 ## IconTexture: Interface\AddOns\ImportantStats\Media\Texture\logo
 
 #30.11.2023
