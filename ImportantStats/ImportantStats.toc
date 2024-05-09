@@ -1,11 +1,11 @@
-## Interface: 100206
+## Interface: 100207
 ## Title:|cffd6266cImportantStats|r
 ## Notes: Displays stat priority based on WoWHead
 ## Author: BloodDragon2580
-## Version: 4.0
+## Version: 4.1
 ## IconTexture: Interface\AddOns\ImportantStats\Media\Texture\logo
 
-#30.11.2023
+#09.05.2024
 
 
 # Libraries

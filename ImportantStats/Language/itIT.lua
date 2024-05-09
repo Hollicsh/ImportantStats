@@ -15,93 +15,93 @@ L[myName] = "|cff0088ffImportantStats|cff808080: |r"
 --Survivability = Sopravvivenza
 --Weapon Damage = Danno Arma
 
---CACCIATOREDIDEMONIRovina
-L["DEMONHUNTERHavoc"] = "Bersaglio Singolo: Agilità > Critico > Maestria > Celerità > Versatilità \n Bersaglio Multiplo: Agilità > Critico > Maestria > Versatilità > Celerità"
---CACCIATOREDIDEMONIVendetta
+--DEMONHUNTERHavoc
+L["DEMONHUNTERHavoc"] = "Single Target: Agilità > Critico > Maestria > Celerità > Versatilità \n Multiple Target: Agilità > Critico > Maestria > Versatilità > Celerità"
+--DEMONHUNTERVengeance
 L["DEMONHUNTERVengeance"] = "Agilità > Critico > Celerità > Versatilità > Maestria"
 
---GUERRIEROArmi
-L["WARRIORArms"] = "Forza > Critico > Celerità > Maestria > Versatilità"
---GUERRIEROFuria
-L["WARRIORFury"] = "Forza > Celerità > Maestria > Critico > Versatilità"
---GUERRIEROProtezione
-L["WARRIORProtection"] = "Forza > Celerità > Versatilità ≥ Critico > Maestria"
+--WARRIORArms
+L["WARRIORArms"] = "Forza > Celerità > Critico > Versatilità > Maestria"
+--WARRIORFury
+L["WARRIORFury"] = "Forza > Celerità > Maestria > Versatilità > Critico"
+--WARRIORProtection
+L["WARRIORProtection"] = "Forza > Celerità > Versatilità = Critico > Maestria"
 
---PALADINOSacro
-L["PALADINHoly"] = "Raid: Intelletto > Maestria = Critico > Versatilità > Celerità \n Mitica+: Intelletto > Critico = Celerità > Versatilità > Maestria"
---PALADINOProtezione
+--PALADINHoly
+L["PALADINHoly"] = "Raid: Intelletto > Maestria = Critico > Versatilità > Celerità \n Myth+: Intelletto > Critico = Celerità > Versatilità > Maestria"
+--PALADINProtection
 L["PALADINProtection"] = "Forza > Celerità ≥ Maestria ≥ Versatilità > Critico"
---PALADINRetribuzione
+--PALADINRetribution
 L["PALADINRetribution"] = "Forza > Celerità > Versatilità = Critico > Maestria"
 
---CACCIATOREAffinitàAnimale
+--HUNTERBeastMastery
 L["HUNTERBeastMastery"] = "Celerità (30%) > Critico (44%) > Maestria (5400) > Versatilità"
---CACCIATOREPrecisionediTiro
-L["HUNTERMarksmanship"] = "Celerità (30%) > Critico (44%) > Maestria > Versatilità"
---CACCIATORESopravvivenza
+--HUNTERMarksmanship
+L["HUNTERMarksmanship"] = "Celerità (30%) > Critico (44%) > Maestria = Versatilità"
+--HUNTERSurvival
 L["HUNTERSurvival"] = "Celerità (30%) > Critico (44%) > Versatilità > Celerità = Critico > Maestria"
 
---LADROAssassinio
+--ROGUEAssassination
 L["ROGUEAssassination"] = "Critico > Maestria > Versatilità > Celerità"
---LADROFuorilegge
+--ROGUEOutlaw
 L["ROGUEOutlaw"] = "Versatilità > Critico > Maestria > Celerità"
---ROGUEScaltrezza
+--ROGUESubtlety
 L["ROGUESubtlety"] = "Critico > Maestria > Versatilità > Celerità"
 
---PRETEDisciplina
+--PRIESTDiscipline
 L["PRIESTDiscipline"] = "Intelletto > Celerità > Critico > Versatilità > Maestria"
---PRETESacro
-L["PRIESTHoly"] = "Mitica+: Intelletto > Critico = Celerità > Versatilità > Maestria \n Raid: Intelletto > Maestria = Critico > Versatilità > Celerità"
---PRETEOmbra
+--PRIESTHoly
+L["PRIESTHoly"] = "Myth+: Intelletto > Critico = Celerità > Versatilità > Maestria \n Raid: Intelletto > Maestria = Critico > Versatilità > Celerità"
+--PRIESTShadow
 L["PRIESTShadow"] = "Intelletto > Celerità > Maestria > Critico > Versatilità"
 
---SCIAMANOElementale
-L["SHAMANElemental"] = "Bersaglio Singolo: Intelletto > Maestria > Celerità > Versatilità > Critico \n Bersaglio Multiplo: Intelletto > Celerità > Critico > Versatilità > Maestria"
---SCIAMANOPotenziamento
-L["SHAMANEnhancement"] = "Elementalista: Agilità > Maestria > Celerità > Critico > Versatilità > Critico \n Tempesta: Agilità > Celerità > Maestria > Critico > Versatilità"
---SCIAMANORestorazione
+--SHAMANElemental
+L["SHAMANElemental"] = "Fire: Intelletto > Maestria > Celerità > Versatilità > Critico \n Lightning: Intelletto > Celerità > Critico > Versatilità > Maestria"
+--SHAMANEnhancement
+L["SHAMANEnhancement"] = "Elementalist: Agilità > Maestria > Celerità > Critico > Versatilità > Critico \n Storm: Agilità > Celerità > Maestria > Critico > Versatilità"
+--SHAMANRestoration
 L["SHAMANRestoration"] = "Intelletto > Versatilità = Critico > Celerità = Maestria"
 
---MAGOArcano
+--MAGEArcane
 L["MAGEArcane"] = "Intelletto > Critico > Maestria > Celerità > Versatilità"
---MAGOFuoco
+--MAGEFire
 L["MAGEFire"] = "Intelletto > Celerità > Critico > Versatilità > Maestria"
---MAGOGelo
+--MAGEFrost
 L["MAGEFrost"] = "Intelletto > Maestria > Celerità > Critico (33.34%) > Versatilità"
 
---STREGONEAfflizione
+--WARLOCKAffliction
 L["WARLOCKAffliction"] = "Intelletto > Celerità (30%) > Maestria > Versatilità = Critico"
---STREGONEDemonologia
-L["WARLOCKDemonology"] = "Intelletto > Celerità (27%) > Critico = Versatilità > Maestria"
---STREGONEDistruzione
+--WARLOCKDemonology
+L["WARLOCKDemonology"] = "Intelletto > Celerità (24%) > Critico = Versatilità > Maestria"
+--WARLOCKDestruction
 L["WARLOCKDestruction"] = "Intelletto > Celerità (30%) > Critico = Versatilità > Maestria"
 
---DRUIDOEquilibrio
+--DRUIDBalance
 L["DRUIDBalance"] = "Intelletto > Maestria > Celerità > Critico > Versatilità"
---DRUIDOAggressoreFerino
-L["DRUIDFeral"] = "Bersaglio Singolo: Agilità > Maestria > Critico > Celerità > Versatilità \n Bersaglio Multiplo: Agilità > Maestria > Critico > Versatilità > Celerità"
---DRUIDOGuardianoFerino
+--DRUIDFeral
+L["DRUIDFeral"] = "Single Target: Agilità > Maestria > Critico > Celerità > Versatilità \n Multiple Target: Agilità > Maestria > Critico > Celerità = Versatilità"
+--DRUIDGuardian
 L["DRUIDGuardian"] = "Sopravvivenza: Agilità > Celerità > Versatilità > Maestria > Critico \n DPS: Agilità > Versatilità = Celerità > Critico = Maestria"
---DRUIDORestorazione
-L["DRUIDRestoration"] = "Raid: Intelletto > Celerità > Maestria > Critico = Versatilità \n Cura nelle Spedizioni: Intelletto > Maestria = Celerità > Versatilità > Critico \n Cura-Danno nelle Spedizioni: Intelletto > Celerità > Versatilità > Critico > Maestria"
+--DRUIDRestoration
+L["DRUIDRestoration"] = "Raid: Intelletto > Celerità > Maestria > Critico = Versatilità \n Dungeon Healing: Intelletto > Maestria = Celerità > Versatilità > Critico \n Dungeon Damage Dealing: Intelletto > Celerità > Versatilità > Critico > Maestria"
 
---MONACOMastroBirraio
-L["MONKBrewmaster"] = "Difensivo: Agilità > Versatilità = Maestria = Critico > Celerità \n Offensivo: Agilità > Versatilità = Critico > Maestria > Celerità"
---MONACOMisticismo
-L["MONKMistweaver"] = "Mitica+: Intelletto > Celerità > Maestria > Versatilità > Critico \n Raid: Intelletto > Celerità > Critico > Versatilità > Maestria"
---MONACOImpeto
+--MONKBrewmaster
+L["MONKBrewmaster"] = "Defensive: Agilità > Versatilità = Maestria = Critico > Celerità \n Offensive: Agilità > Versatilità = Critico > Maestria > Celerità"
+--MONKMistweaver
+L["MONKMistweaver"] = "Myth+: Intelletto > Celerità > Maestria > Versatilità > Critico \n Raid: Intelletto > Celerità > Critico > Versatilità > Maestria"
+--MONKWindwalker
 L["MONKWindwalker"] = "Danno Arma > Agilità > Versatilità = Critico > Maestria > Celerità"
 
---CAVALIEREDELLAMORTESangue
-L["DEATHKNIGHTBlood"] = "Livello Oggetto > Celerità = Critico = Versatilità = Maestria"
---CAVALIEREDELLAMORTEGelo
+--DEATHKNIGHTBlood
+L["DEATHKNIGHTBlood"] = "Item Level > Celerità = Critico = Versatilità = Maestria"
+--DEATHKNIGHTFrost
 L["DEATHKNIGHTFrost"] = "Critico > Maestria > Celerità > Versatilità"
---CAVALIEREDELLAMORTEEmpietà
-L["DEATHKNIGHTUnholy"] = "Bersaglio Singolo: Maestria > Celerità > Critico > Versatilità \n Bersaglio Multiplo: Maestria > Critico > Celerità > Versatilità"
+--DEATHKNIGHTUnholy
+L["DEATHKNIGHTUnholy"] = "Single Target: Maestria > Celerità > Critico > Versatilità \n Multiple Target: Maestria > Critico > Celerità > Versatilità"
 
---EVOCATOREDevastazione
+--EVOKERDevastation
 L["EVOKERDevastation"] = "Intelletto > Critico >= Versatilità = Maestria = Celerità"
---EVOCATOREPreservazione
-L["EVOKERPreservation"] = "Mitica+: Intelletto > Critico > Celerità > Versatilità > Maestria \n Raid: Intelletto > Maestria > Critico > Versatilità > Celerità"
---EVOCATOREFortificazione
-L["EVOKERAugmentation"] = "Intelletto > Maestria > Celerità > Critico > Versatilità"
+--EVOKERPreservation
+L["EVOKERPreservation"] = "Myth+: Intelletto > Critico > Celerità > Versatilità > Maestria \n Raid: Intelletto > Maestria > Critico > Versatilità > Celerità"
+--EVOKERAugmentation
+L["EVOKERAugmentation"] = "Intelletto > Maestria > Critico > Celerità > Versatilità"
