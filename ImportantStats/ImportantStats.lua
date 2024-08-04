@@ -81,7 +81,7 @@ function ImportantStatsFrameCreate(frame)
 									 bottom = 1}}) 
 		frame:SetBackdropColor(0, 0, 0, 1)
 		frame:SetFrameStrata("TOOLTIP")
-		frame:SetWidth(PaperDollFrame:GetWidth() - 50) 
+		frame:SetWidth(PaperDollFrame:GetWidth() + 50) 
 		if frame == PaperDollFrame then
 			frame:SetHeight(25)
 		else

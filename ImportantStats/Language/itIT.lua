@@ -34,8 +34,8 @@ L["PALADINProtection"] = "Forza > Celerità ≥ Maestria ≥ Versatilità > Crit
 --PALADINRetribution
 L["PALADINRetribution"] = "Forza > Celerità > Versatilità = Critico > Maestria"
 
---HUNTERBeastMastery
-L["HUNTERBeastMastery"] = "Celerità (30%) > Critico (44%) > Maestria (5400) > Versatilità"
+--HUNTERBeastMaestria
+L["HUNTERBeastMaestria"] = "Celerità (30%) > Critico (44%) > Maestria (5400) > Versatilità"
 --HUNTERMarksmanship
 L["HUNTERMarksmanship"] = "Celerità (30%) > Critico (44%) > Maestria = Versatilità"
 --HUNTERSurvival
