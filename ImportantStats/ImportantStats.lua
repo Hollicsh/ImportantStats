@@ -63,7 +63,7 @@ function ImportantStatsFrameOnEvent(self, event, arg1)
 		self:UnregisterEvent("ADDON_LOADED")
 		PaperDollFrame:HookScript("OnShow", function() ImportantStatsFrameUpdate(self) end)
 	end
-	if event == "SPELLS_CHANGED" and IsAddOnLoaded("ImportantStats") then
+	if event == "SPELLS_CHANGED" and C_AddOns.IsAddOnLoaded("ImportantStats") then
 		ImportantStatsFrameUpdate(self)
 	end
 end
