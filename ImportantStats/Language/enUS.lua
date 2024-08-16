@@ -105,3 +105,71 @@ L["EVOKERDevastation"] = "Intellect > Critical Strike >= Versatility = Mastery =
 L["EVOKERPreservation"] = "Myth+: Intellect > Critical Strike > Haste > Versatility > Mastery \n Raid: Intellect > Mastery > Critical Strike > Versatility > Haste"
 --EVOKERAugmentation
 L["EVOKERAugmentation"] = "Intellect > Mastery > Critical Strike > Haste > Versatility"
+
+--Optionen
+L["ImportantStats"] = "ImportantStats"
+L["Custom priority strings"] = "Custom priority strings"
+L["You can put your own custom priority strings here"] = "You can put your own custom priority strings here"
+
+-- Warrior
+L["Arms"] = "Arms"
+L["Fury"] = "Fury"
+L["Protection"] = "Protection"
+
+-- Paladin
+L["Holy"] = "Holy"
+L["Retribution"] = "Retribution"
+
+-- Hunter
+L["Beast Mastery"] = "Beast Mastery"
+L["Marksmanship"] = "Marksmanship"
+L["Survival"] = "Survival"
+
+-- Rogue
+L["Assassination"] = "Assassination"
+L["Outlaw"] = "Outlaw"
+L["Subtlety"] = "Subtlety"
+
+-- Priest
+L["Discipline"] = "Discipline"
+L["Shadow"] = "Shadow"
+
+-- Shaman
+L["Elemental"] = "Elemental"
+L["Enhancement"] = "Enhancement"
+L["Restoration"] = "Restoration"
+
+-- Mage
+L["Arcane"] = "Arcane"
+L["Fire"] = "Fire"
+L["Frost"] = "Frost"
+
+-- Warlock
+L["Affliction"] = "Affliction"
+L["Demonology"] = "Demonology"
+L["Destruction"] = "Destruction"
+
+-- Druid
+L["Balance"] = "Balance"
+L["Feral"] = "Feral"
+L["Guardian"] = "Guardian"
+L["Restoration"] = "Restoration"
+
+-- Monk
+L["Brewmaster"] = "Brewmaster"
+L["Mistweaver"] = "Mistweaver"
+L["Windwalker"] = "Windwalker"
+
+-- Death Knight
+L["Blood"] = "Blood"
+L["Frost"] = "Frost"
+L["Unholy"] = "Unholy"
+
+-- Demon Hunter
+L["Havoc"] = "Havoc"
+L["Vengeance"] = "Vengeance"
+
+-- Evoker
+L["Devastation"] = "Devastation"
+L["Preservation"] = "Preservation"
+L["Augmentation"] = "Augmentation"

@@ -105,3 +105,73 @@ L["EVOKERDevastation"] = "Intelligenz > Kritischer Trefferwert >= Vielseitigkeit
 L["EVOKERPreservation"] = "Myth+: Intelligenz > Kritischer Trefferwert > Tempo > Vielseitigkeit > Meisterschaft \n Raid: Intelligenz > Meisterschaft > Kritischer Trefferwert > Vielseitigkeit > Tempo"
 --EVOKERAugmentation
 L["EVOKERAugmentation"] = "Intelligenz > Meisterschaft > Kritischer Trefferwert > Tempo > Vielseitigkeit"
+
+--Optionen
+L["ImportantStats"] = "ImportantStats"
+L["Custom priority strings"] = "Benutzerdefinierte Prioritätsstrings"
+L["You can put your own custom priority strings here"] = "Hier können Sie Ihre eigenen benutzerdefinierten Prioritätsstrings eingeben"
+
+-- Warrior
+L["Arms"] = "Waffen"
+L["Fury"] = "Wut"
+L["Protection"] = "Schutz"
+
+-- Paladin
+L["Holy"] = "Heilig"
+L["Retribution"] = "Rache"
+L["Protection"] = "Schutz"
+
+-- Hunter
+L["Beast Mastery"] = "Tierherrschaft"
+L["Marksmanship"] = "Treffsicherheit"
+L["Survival"] = "Überleben"
+
+-- Rogue
+L["Assassination"] = "Meucheln"
+L["Outlaw"] = "Gesetzlosigkeit"
+L["Subtlety"] = "Subtilität"
+
+-- Priest
+L["Discipline"] = "Disziplin"
+L["Holy"] = "Heilig"
+L["Shadow"] = "Schatten"
+
+-- Shaman
+L["Elemental"] = "Elementar"
+L["Enhancement"] = "Verstärkung"
+L["Restoration"] = "Wiederherstellung"
+
+-- Mage
+L["Arcane"] = "Arkan"
+L["Fire"] = "Feuer"
+L["Frost"] = "Frost"
+
+-- Warlock
+L["Affliction"] = "Gebrechlichkeit"
+L["Demonology"] = "Dämonologie"
+L["Destruction"] = "Zerstörung"
+
+-- Druid
+L["Balance"] = "Gleichgewicht"
+L["Feral"] = "Wildheit"
+L["Guardian"] = "Wächter"
+L["Restoration"] = "Wiederherstellung"
+
+-- Monk
+L["Brewmaster"] = "Brau-Meister"
+L["Mistweaver"] = "Nebelwirker"
+L["Windwalker"] = "Windläufer"
+
+-- Death Knight
+L["Blood"] = "Blut"
+L["Frost"] = "Frost"
+L["Unholy"] = "Unheilig"
+
+-- Demon Hunter
+L["Havoc"] = "Verwüstung"
+L["Vengeance"] = "Rachsucht"
+
+-- Evoker
+L["Devastation"] = "Verwüstung"
+L["Preservation"] = "Erhaltung"
+L["Augmentation"] = "Verstärkung"

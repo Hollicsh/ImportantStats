@@ -1,75 +1,77 @@
+local ImportantStats = LibStub("AceAddon-3.0"):NewAddon("ImportantStats")
+
 local myName, me = ...
 local L = me.L
 
-ImportantStats = {}
+if ImportantStatsDB == nil then
+	ImportantStatsDB = {}
+end
 
-ImportantStats["WARRIORArms"] = L["WARRIORArms"]
-ImportantStats["WARRIORFury"] = L["WARRIORFury"]
-ImportantStats["WARRIORProtection"] = L["WARRIORProtection"]
+ImportantStats.Stats = {}
 
-ImportantStats["PALADINHoly"] = L["PALADINHoly"]
-ImportantStats["PALADINProtection"] = L["PALADINProtection"]
-ImportantStats["PALADINRetribution"] = L["PALADINRetribution"]
+ImportantStats.Stats["WARRIORArms"] = L["WARRIORArms"]
+ImportantStats.Stats["WARRIORFury"] = L["WARRIORFury"]
+ImportantStats.Stats["WARRIORProtection"] = L["WARRIORProtection"]
 
-ImportantStats["HUNTERBeastMastery"] = L["HUNTERBeastMastery"]
-ImportantStats["HUNTERMarksmanship"] = L["HUNTERMarksmanship"]
-ImportantStats["HUNTERSurvival"] = L["HUNTERSurvival"]
+ImportantStats.Stats["PALADINHoly"] = L["PALADINHoly"]
+ImportantStats.Stats["PALADINProtection"] = L["PALADINProtection"]
+ImportantStats.Stats["PALADINRetribution"] = L["PALADINRetribution"]
 
-ImportantStats["ROGUEAssassination"] = L["ROGUEAssassination"]
-ImportantStats["ROGUEOutlaw"] = L["ROGUEOutlaw"]
-ImportantStats["ROGUESubtlety"] = L["ROGUESubtlety"]
+ImportantStats.Stats["HUNTERBeastMastery"] = L["HUNTERBeastMastery"]
+ImportantStats.Stats["HUNTERMarksmanship"] = L["HUNTERMarksmanship"]
+ImportantStats.Stats["HUNTERSurvival"] = L["HUNTERSurvival"]
 
-ImportantStats["PRIESTDiscipline"] = L["PRIESTDiscipline"]
-ImportantStats["PRIESTHoly"] = L["PRIESTHoly"]
-ImportantStats["PRIESTShadow"] = L["PRIESTShadow"]
-ImportantStats["PRIESTMadness"] = L["PRIESTMadness"]
+ImportantStats.Stats["ROGUEAssassination"] = L["ROGUEAssassination"]
+ImportantStats.Stats["ROGUEOutlaw"] = L["ROGUEOutlaw"]
+ImportantStats.Stats["ROGUESubtlety"] = L["ROGUESubtlety"]
 
-ImportantStats["SHAMANElemental"] = L["SHAMANElemental"]
-ImportantStats["SHAMANEnhancement"] = L["SHAMANEnhancement"]
-ImportantStats["SHAMANRestoration"] = L["SHAMANRestoration"]
+ImportantStats.Stats["PRIESTDiscipline"] = L["PRIESTDiscipline"]
+ImportantStats.Stats["PRIESTHoly"] = L["PRIESTHoly"]
+ImportantStats.Stats["PRIESTShadow"] = L["PRIESTShadow"]
+ImportantStats.Stats["PRIESTMadness"] = L["PRIESTMadness"]
 
-ImportantStats["MAGEArcane"] = L["MAGEArcane"]
-ImportantStats["MAGEFire"] = L["MAGEFire"]
-ImportantStats["MAGEFrost"] = L["MAGEFrost"]
+ImportantStats.Stats["SHAMANElemental"] = L["SHAMANElemental"]
+ImportantStats.Stats["SHAMANEnhancement"] = L["SHAMANEnhancement"]
+ImportantStats.Stats["SHAMANRestoration"] = L["SHAMANRestoration"]
 
-ImportantStats["WARLOCKAffliction"] = L["WARLOCKAffliction"]
-ImportantStats["WARLOCKDemonology"] = L["WARLOCKDemonology"]
-ImportantStats["WARLOCKDestruction"] = L["WARLOCKDestruction"]
+ImportantStats.Stats["MAGEArcane"] = L["MAGEArcane"]
+ImportantStats.Stats["MAGEFire"] = L["MAGEFire"]
+ImportantStats.Stats["MAGEFrost"] = L["MAGEFrost"]
 
-ImportantStats["DRUIDBalance"] = L["DRUIDBalance"]
-ImportantStats["DRUIDFeral"] = L["DRUIDFeral"]
-ImportantStats["DRUIDGuardian"] = L["DRUIDGuardian"]
-ImportantStats["DRUIDRestoration"] = L["DRUIDRestoration"]
+ImportantStats.Stats["WARLOCKAffliction"] = L["WARLOCKAffliction"]
+ImportantStats.Stats["WARLOCKDemonology"] = L["WARLOCKDemonology"]
+ImportantStats.Stats["WARLOCKDestruction"] = L["WARLOCKDestruction"]
 
-ImportantStats["MONKBrewmaster"] = L["MONKBrewmaster"]
-ImportantStats["MONKMistweaver"] = L["MONKMistweaver"]
-ImportantStats["MONKFistweaver"] = L["MONKFistweaver"]
-ImportantStats["MONKWindwalker"] = L["MONKWindwalker"]
+ImportantStats.Stats["DRUIDBalance"] = L["DRUIDBalance"]
+ImportantStats.Stats["DRUIDFeral"] = L["DRUIDFeral"]
+ImportantStats.Stats["DRUIDGuardian"] = L["DRUIDGuardian"]
+ImportantStats.Stats["DRUIDRestoration"] = L["DRUIDRestoration"]
 
-ImportantStats["DEATHKNIGHTBlood"] = L["DEATHKNIGHTBlood"]
-ImportantStats["DEATHKNIGHTFrost"] = L["DEATHKNIGHTFrost"]
-ImportantStats["DEATHKNIGHTUnholy"] = L["DEATHKNIGHTUnholy"]
-ImportantStats["DEATHKNIGHTShadows"] = L["DEATHKNIGHTShadows"]
+ImportantStats.Stats["MONKBrewmaster"] = L["MONKBrewmaster"]
+ImportantStats.Stats["MONKMistweaver"] = L["MONKMistweaver"]
+ImportantStats.Stats["MONKFistweaver"] = L["MONKFistweaver"]
+ImportantStats.Stats["MONKWindwalker"] = L["MONKWindwalker"]
 
-ImportantStats["DEMONHUNTERHavoc"] =  L["DEMONHUNTERHavoc"]
-ImportantStats["DEMONHUNTERVengeance"] = L["DEMONHUNTERVengeance"]
+ImportantStats.Stats["DEATHKNIGHTBlood"] = L["DEATHKNIGHTBlood"]
+ImportantStats.Stats["DEATHKNIGHTFrost"] = L["DEATHKNIGHTFrost"]
+ImportantStats.Stats["DEATHKNIGHTUnholy"] = L["DEATHKNIGHTUnholy"]
+ImportantStats.Stats["DEATHKNIGHTShadows"] = L["DEATHKNIGHTShadows"]
 
-ImportantStats["EVOKERDevastation"] =  L["EVOKERDevastation"]
-ImportantStats["EVOKERPreservation"] = L["EVOKERPreservation"]
-ImportantStats["EVOKERAugmentation"] = L["EVOKERAugmentation"]
+ImportantStats.Stats["DEMONHUNTERHavoc"] =  L["DEMONHUNTERHavoc"]
+ImportantStats.Stats["DEMONHUNTERVengeance"] = L["DEMONHUNTERVengeance"]
 
-function ImportantStatsFrameOnEvent(self, event, arg1)
-	if event == "ADDON_LOADED" and arg1 == "ImportantStats" then
-		self:UnregisterEvent("ADDON_LOADED")
-		PaperDollFrame:HookScript("OnShow", function() ImportantStatsFrameUpdate(self) end)
-	end
-	if event == "SPELLS_CHANGED" and C_AddOns.IsAddOnLoaded("ImportantStats") then
-		ImportantStatsFrameUpdate(self)
+ImportantStats.Stats["EVOKERDevastation"] =  L["EVOKERDevastation"]
+ImportantStats.Stats["EVOKERPreservation"] = L["EVOKERPreservation"]
+ImportantStats.Stats["EVOKERAugmentation"] = L["EVOKERAugmentation"]
+
+function ImportantStats:FrameOnEvent(event, arg1)
+	if event == "SPELLS_CHANGED" then
+		ImportantStats:FrameUpdate(statPriorityText, PaperDollFrame, "player")
 	end
 end
 
-function ImportantStatsFrameCreate(frame)
-	if PaperDollFrame:IsVisible() then
+function ImportantStats:FrameCreate(frame, text, parent)
+	if parent.IsVisible ~= nil and parent:IsVisible() then
 		frame:SetBackdrop({bgFile = "Interface/Tooltips/UI-Tooltip-Background", 
 						   edgeFile = "Interface/Tooltips/UI-Tooltip-Border", 
 						   tile = true,
@@ -81,26 +83,27 @@ function ImportantStatsFrameCreate(frame)
 									 bottom = 1}}) 
 		frame:SetBackdropColor(0, 0, 0, 1)
 		frame:SetFrameStrata("TOOLTIP")
-		frame:SetWidth(PaperDollFrame:GetWidth() + 50) 
-		if frame == PaperDollFrame then
-			frame:SetHeight(25)
+		frame:SetWidth(parent:GetWidth())
+		if parent == PaperDollFrame then
+			frame:SetHeight(80)
 		else
-			frame:SetHeight(60)
+			frame:SetHeight(50)
 		end
-		ImportantStatsText:ClearAllPoints()
-		ImportantStatsText:SetAllPoints(frame) 
-		ImportantStatsText:SetJustifyH("LEFT")
-		ImportantStatsText:SetJustifyV("MIDDLE")
+		text:ClearAllPoints()
+		text:SetAllPoints(frame) 
+		text:SetJustifyH("CENTER")
+		text:SetJustifyV("MIDDLE")
 		frame:ClearAllPoints()
-		frame:SetPoint("BOTTOMRIGHT", PaperDollFrame, "TOPRIGHT",0,0)
-		frame:SetParent(PaperDollFrame)
+		frame:SetPoint("BOTTOMRIGHT", parent, "TOPRIGHT",0,0)
+		frame:SetPoint("BOTTOMLEFT", parent, "TOPLEFT",0,0)
+		frame:SetParent(parent)
 		frame:Show()
 		return true
 	end
 	return false
 end
 
-function GetSpecializationName(id)
+function ImportantStats:GetSpecializationName(id)
 	local spec = ""
 	if id == 62 then 
 		spec = "Arcane"
@@ -135,7 +138,7 @@ function GetSpecializationName(id)
 	elseif id == 252 then 
 		spec = "Unholy"
 	elseif id == 253 then 
-		spec = "BeastMastery"
+		spec = "Beast Mastery"
 	elseif id == 254 then 
 		spec = "Marksmanship"
 	elseif id == 255 then 
@@ -178,37 +181,524 @@ function GetSpecializationName(id)
 		spec = "Devastation"
 	elseif id == 1468 then 
 		spec = "Preservation"
-	elseif id == 1473 then 
+	elseif id == 1473 then
 		spec = "Augmentation"
 	end
 	return spec
 end
 
-function ImportantStatsFrameUpdate(frame)
-	if ImportantStatsFrameCreate(frame) then
-		local temp, class = UnitClass("player")
-		local spec = GetSpecializationInfo(GetSpecialization())
-		spec = GetSpecializationName(spec)
-		local text = ImportantStats[class .. spec];
-		if class == "PRIEST" then
-			if IsSpellKnown(193223) then
-				text = ImportantStats[class .. "Madness"]
+function ImportantStats:FrameUpdate(frame, frameText, parent, unit)
+	if parent ~= nil and self:FrameCreate(frame, frameText, parent) then
+		local temp, class = UnitClass(unit)
+		local spec
+		local text
+		if parent == PaperDollFrame then
+			spec = GetSpecializationInfo(GetSpecialization())
+			spec = ImportantStats:GetSpecializationName(spec)
+			text = ImportantStats.Stats[class .. spec];
+			if ImportantStatsDB[class..spec] == nil then
+				text = ImportantStats.Stats[class..spec]
+			else
+				text = ImportantStatsDB[class..spec]
 			end
-		elseif class == "MONK" then
-			if IsSpellKnown(210802) then
-				text = ImportantStats[class .. "Fistweaver"]
-			end
-		elseif class == "DEATHKNIGHT" then
-			if IsSpellKnown(207311) then
-				text = ImportantStats[class .. "Shadows"]
+		else
+			spec = ImportantStats:GetSpecializationName(GetInspectSpecialization(unit))
+			text = ImportantStats.Stats[class .. spec];
+			if ImportantStats.Stats[class..spec] ~= nil and class == UnitClass("player") then
+				text = ImportantStats.Stats[class..spec]
 			end
 		end
-		ImportantStatsText:SetText(text)
+		frameText:SetText(text)
 	end
 end
 
-local ImportantStatsFrame = CreateFrame("Frame", nil, UIParent, BackdropTemplateMixin and "BackdropTemplate");
-ImportantStatsText = ImportantStatsFrame:CreateFontString(nil, "OVERLAY", "GameFontWhite")
-ImportantStatsFrame:RegisterEvent("ADDON_LOADED")
-ImportantStatsFrame:RegisterEvent("SPELLS_CHANGED")
-ImportantStatsFrame:SetScript("OnEvent", ImportantStatsFrameOnEvent)
+function ImportantStats:SetPriority(info, val)
+	local _, name = UnitClass("player")
+	ImportantStatsDB[name .. info.option.name] = val
+end
+
+function ImportantStats:GetPriority(info)
+	local _, name = UnitClass("player")
+	return ImportantStatsDB[name .. info.option.name]
+end
+
+function ImportantStats:OnInitialize()
+	self.Frame = CreateFrame("FRAME", nil, UIParent, BackdropTemplateMixin and "BackdropTemplate")
+	self.Text = self.Frame:CreateFontString(nil, "OVERLAY", "GameFontWhite")
+	self.Frame:RegisterEvent("SPELLS_CHANGED")
+	self.Frame:SetScript("OnEvent", self.FrameOnEvent)
+	PaperDollFrame:HookScript("OnShow", function() self:FrameUpdate(self.Frame, self.Text, PaperDollFrame, "player") end)
+	local options;
+	local _, class = UnitClass("player")
+	if class == "WARRIOR" then
+		options = {
+			name = L["ImportantStats"],
+			handler = ImportantStats,
+			type = "group",
+			args = {
+				stats = {
+					name = L["Custom priority strings"],
+					type = "group",
+					desc = L["You can put your own custom priority strings here"],
+					args = {
+						spec1 = {
+							name = L["Arms"],
+							type = "input",
+							width = "full",
+							set = "SetPriority",
+							get = "GetPriority"
+						},
+						spec2 = {
+							name = L["Fury"],
+							type = "input",
+							width = "full",
+							set = "SetPriority",
+							get = "GetPriority"
+						},
+						spec3 = {
+							name = L["Protection"],
+							type = "input",
+							width = "full",
+							set = "SetPriority",
+							get = "GetPriority"
+						}
+					}
+				}
+			}
+		}
+	elseif class == "PALADIN" then
+		options = {
+			name = L["ImportantStats"],
+			handler = ImportantStats,
+			type = "group",
+			args = {
+				stats = {
+					name = L["Custom priority strings"],
+					type = "group",
+					desc = L["You can put your own custom priority strings here"],
+					args = {
+						spec1 = {
+							name = L["Holy"],
+							type = "input",
+							width = "full",
+							set = "SetPriority",
+							get = "GetPriority"
+						},
+						spec2 = {
+							name = L["Protection"],
+							type = "input",
+							width = "full",
+							set = "SetPriority",
+							get = "GetPriority"
+						},
+						spec3 = {
+							name = L["Retribution"],
+							type = "input",
+							width = "full",
+							set = "SetPriority",
+							get = "GetPriority"
+						}
+					}
+				}
+			}
+		}
+	elseif class == "HUNTER" then
+		options = {
+			name = L["ImportantStats"],
+			handler = ImportantStats,
+			type = "group",
+			args = {
+				stats = {
+					name = L["Custom priority strings"],
+					type = "group",
+					desc = L["You can put your own custom priority strings here"],
+					args = {
+						spec1 = {
+							name = L["Beast Mastery"],
+							type = "input",
+							width = "full",
+							set = "SetPriority",
+							get = "GetPriority"
+						},
+						spec2 = {
+							name = L["Marksmanship"],
+							type = "input",
+							width = "full",
+							set = "SetPriority",
+							get = "GetPriority"
+						},
+						spec3 = {
+							name = L["Survival"],
+							type = "input",
+							width = "full",
+							set = "SetPriority",
+							get = "GetPriority"
+						}
+					}
+				}
+			}
+		}
+	elseif class == "ROGUE" then
+		options = {
+			name = L["ImportantStats"],
+			handler = ImportantStats,
+			type = "group",
+			args = {
+				stats = {
+					name = L["Custom priority strings"],
+					type = "group",
+					desc = L["You can put your own custom priority strings here"],
+					args = {
+						spec1 = {
+							name = L["Assassination"],
+							type = "input",
+							width = "full",
+							set = "SetPriority",
+							get = "GetPriority"
+						},
+						spec2 = {
+							name = L["Outlaw"],
+							type = "input",
+							width = "full",
+							set = "SetPriority",
+							get = "GetPriority"
+						},
+						spec3 = {
+							name = L["Subtlety"],
+							type = "input",
+							width = "full",
+							set = "SetPriority",
+							get = "GetPriority"
+						}
+					}
+				}
+			}
+		}
+	elseif class == "PRIEST" then
+		options = {
+			name = L["ImportantStats"],
+			handler = ImportantStats,
+			type = "group",
+			args = {
+				stats = {
+					name = L["Custom priority strings"],
+					type = "group",
+					desc = L["You can put your own custom priority strings here"],
+					args = {
+						spec1 = {
+							name = L["Discipline"],
+							type = "input",
+							width = "full",
+							set = "SetPriority",
+							get = "GetPriority"
+						},
+						spec2 = {
+							name = L["Holy"],
+							type = "input",
+							width = "full",
+							set = "SetPriority",
+							get = "GetPriority"
+						},
+						spec3 = {
+							name = L["Shadow"],
+							type = "input",
+							width = "full",
+							set = "SetPriority",
+							get = "GetPriority"
+						}
+					}
+				}
+			}
+		}
+	elseif class == "SHAMAN" then
+		options = {
+			name = L["ImportantStats"],
+			handler = ImportantStats,
+			type = "group",
+			args = {
+				stats = {
+					name = L["Custom priority strings"],
+					type = "group",
+					desc = L["You can put your own custom priority strings here"],
+					args = {
+						spec1 = {
+							name = L["Elemental"],
+							type = "input",
+							width = "full",
+							set = "SetPriority",
+							get = "GetPriority"
+						},
+						spec2 = {
+							name = L["Enhancement"],
+							type = "input",
+							width = "full",
+							set = "SetPriority",
+							get = "GetPriority"
+						},
+						spec3 = {
+							name = L["Restoration"],
+							type = "input",
+							width = "full",
+							set = "SetPriority",
+							get = "GetPriority"
+						}
+					}
+				}
+			}
+		}
+	elseif class == "MAGE" then
+		options = {
+			name = L["ImportantStats"],
+			handler = ImportantStats,
+			type = "group",
+			args = {
+				stats = {
+					name = L["Custom priority strings"],
+					type = "group",
+					desc = L["You can put your own custom priority strings here"],
+					args = {
+						spec1 = {
+							name = L["Arcane"],
+							type = "input",
+							width = "full",
+							set = "SetPriority",
+							get = "GetPriority"
+						},
+						spec2 = {
+							name = L["Fire"],
+							type = "input",
+							width = "full",
+							set = "SetPriority",
+							get = "GetPriority"
+						},
+						spec3 = {
+							name = L["Frost"],
+							type = "input",
+							width = "full",
+							set = "SetPriority",
+							get = "GetPriority"
+						}
+					}
+				}
+			}
+		}
+	elseif class == "WARLOCK" then
+		options = {
+			name = L["ImportantStats"],
+			handler = ImportantStats,
+			type = "group",
+			args = {
+				stats = {
+					name = L["Custom priority strings"],
+					type = "group",
+					desc = L["You can put your own custom priority strings here"],
+					args = {
+						spec1 = {
+							name = L["Affliction"],
+							type = "input",
+							width = "full",
+							set = "SetPriority",
+							get = "GetPriority"
+						},
+						spec2 = {
+							name = L["Demonology"],
+							type = "input",
+							width = "full",
+							set = "SetPriority",
+							get = "GetPriority"
+						},
+						spec3 = {
+							name = L["Destruction"],
+							type = "input",
+							width = "full",
+							set = "SetPriority",
+							get = "GetPriority"
+						}
+					}
+				}
+			}
+		}
+	elseif class == "DRUID" then
+		options = {
+			name = L["ImportantStats"],
+			handler = ImportantStats,
+			type = "group",
+			args = {
+				stats = {
+					name = L["Custom priority strings"],
+					type = "group",
+					desc = L["You can put your own custom priority strings here"],
+					args = {
+						spec1 = {
+							name = L["Balance"],
+							type = "input",
+							width = "full",
+							set = "SetPriority",
+							get = "GetPriority"
+						},
+						spec2 = {
+							name = L["Feral"],
+							type = "input",
+							width = "full",
+							set = "SetPriority",
+							get = "GetPriority"
+						},
+						spec3 = {
+							name = L["Guardian"],
+							type = "input",
+							width = "full",
+							set = "SetPriority",
+							get = "GetPriority"
+						},
+						spec4 = {
+							name = L["Restoration"],
+							type = "input",
+							width = "full",
+							set = "SetPriority",
+							get = "GetPriority"
+						}
+					}
+				}
+			}
+		}
+	elseif class == "MONK" then
+		options = {
+			name = L["ImportantStats"],
+			handler = ImportantStats,
+			type = "group",
+			args = {
+				stats = {
+					name = L["Custom priority strings"],
+					type = "group",
+					desc = L["You can put your own custom priority strings here"],
+					args = {
+						spec1 = {
+							name = L["Brewmaster"],
+							type = "input",
+							width = "full",
+							set = "SetPriority",
+							get = "GetPriority"
+						},
+						spec2 = {
+							name = L["Mistweaver"],
+							type = "input",
+							width = "full",
+							set = "SetPriority",
+							get = "GetPriority"
+						},
+						spec3 = {
+							name = L["Windwalker"],
+							type = "input",
+							width = "full",
+							set = "SetPriority",
+							get = "GetPriority"
+						}
+					}
+				}
+			}
+		}
+	elseif class == "DEATHKNIGHT" then
+		options = {
+			name = L["ImportantStats"],
+			handler = ImportantStats,
+			type = "group",
+			args = {
+				stats = {
+					name = L["Custom priority strings"],
+					type = "group",
+					desc = L["You can put your own custom priority strings here"],
+					args = {
+						spec1 = {
+							name = L["Blood"],
+							type = "input",
+							width = "full",
+							set = "SetPriority",
+							get = "GetPriority"
+						},
+						spec2 = {
+							name = L["Frost"],
+							type = "input",
+							width = "full",
+							set = "SetPriority",
+							get = "GetPriority"
+						},
+						spec3 = {
+							name = L["Unholy"],
+							type = "input",
+							width = "full",
+							set = "SetPriority",
+							get = "GetPriority"
+						}
+					}
+				}
+			}
+		}
+	elseif class == "DEMONHUNTER" then
+		options = {
+			name = L["ImportantStats"],
+			handler = ImportantStats,
+			type = "group",
+			args = {
+				stats = {
+					name = L["Custom priority strings"],
+					type = "group",
+					desc = L["You can put your own custom priority strings here"],
+					args = {
+						spec1 = {
+							name = L["Havoc"],
+							type = "input",
+							width = "full",
+							set = "SetPriority",
+							get = "GetPriority"
+						},
+						spec2 = {
+							name = L["Vengeance"],
+							type = "input",
+							width = "full",
+							set = "SetPriority",
+							get = "GetPriority"
+						}
+					}
+				}
+			}
+		}
+	elseif class == "EVOKER" then
+		options = {
+			name = L["ImportantStats"],
+			handler = ImportantStats,
+			type = "group",
+			args = {
+				stats = {
+					name = L["Custom priority strings"],
+					type = "group",
+					desc = L["You can put your own custom priority strings here"],
+					args = {
+						spec1 = {
+							name = L["Devastation"],
+							type = "input",
+							width = "full",
+							set = "SetPriority",
+							get = "GetPriority"
+						},
+						spec2 = {
+							name = L["Preservation"],
+							type = "input",
+							width = "full",
+							set = "SetPriority",
+							get = "GetPriority"
+						},
+						spec3 = {
+							name = L["Augmentation"],
+							type = "input",
+							width = "full",
+							set = "SetPriority",
+							get = "GetPriority"
+						}
+					}
+				}
+			}
+		}
+	end
+	LibStub("AceConfig-3.0"):RegisterOptionsTable("ImportantStats", options, nil)
+	LibStub("AceConfigDialog-3.0"):AddToBlizOptions("ImportantStats", "ImportantStats")
+end

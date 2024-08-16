@@ -105,3 +105,73 @@ L["EVOKERDevastation"] = "Intelletto > Critico >= Versatilità = Maestria = Cele
 L["EVOKERPreservation"] = "Myth+: Intelletto > Critico > Celerità > Versatilità > Maestria \n Raid: Intelletto > Maestria > Critico > Versatilità > Celerità"
 --EVOKERAugmentation
 L["EVOKERAugmentation"] = "Intelletto > Maestria > Critico > Celerità > Versatilità"
+
+--Optionen
+L["ImportantStats"] = "ImportantStats"
+L["Custom priority strings"] = "Stringhe di Priorità Personalizzate"
+L["You can put your own custom priority strings here"] = "Puoi inserire qui le tue stringhe di priorità personalizzate"
+
+-- Warrior
+L["Arms"] = "Armi"
+L["Fury"] = "Furia"
+L["Protection"] = "Protezione"
+
+-- Paladin
+L["Holy"] = "Sacro"
+L["Retribution"] = "Vendetta"
+L["Protection"] = "Protezione"
+
+-- Hunter
+L["Beast Mastery"] = "Maestria delle Bestie"
+L["Marksmanship"] = "Precisione"
+L["Survival"] = "Sopravvivenza"
+
+-- Rogue
+L["Assassination"] = "Assassinio"
+L["Outlaw"] = "Fuorilegge"
+L["Subtlety"] = "Sottigliezza"
+
+-- Priest
+L["Discipline"] = "Disciplina"
+L["Holy"] = "Sacro"
+L["Shadow"] = "Ombra"
+
+-- Shaman
+L["Elemental"] = "Elementale"
+L["Enhancement"] = "Ripristino"
+L["Restoration"] = "Ristabilimento"
+
+-- Mage
+L["Arcane"] = "Arcano"
+L["Fire"] = "Fuoco"
+L["Frost"] = "Gelo"
+
+-- Warlock
+L["Affliction"] = "Afflizione"
+L["Demonology"] = "Demonologia"
+L["Destruction"] = "Distruzione"
+
+-- Druid
+L["Balance"] = "Equilibrio"
+L["Feral"] = "Selvaggio"
+L["Guardian"] = "Guardiano"
+L["Restoration"] = "Ristabilimento"
+
+-- Monk
+L["Brewmaster"] = "Maestro Birraio"
+L["Mistweaver"] = "Intessitore di Nebbia"
+L["Windwalker"] = "Camminatore del Vento"
+
+-- Death Knight
+L["Blood"] = "Sangue"
+L["Frost"] = "Gelo"
+L["Unholy"] = "Impalato"
+
+-- Demon Hunter
+L["Havoc"] = "Devastazione"
+L["Vengeance"] = "Vendetta"
+
+-- Evoker
+L["Devastation"] = "Devastazione"
+L["Preservation"] = "Conservazione"
+L["Augmentation"] = "Incremento"
