@@ -34,7 +34,7 @@ L["PALADINProtection"] = "Stärke > Tempo ≥ Meisterschaft ≥ Vielseitigkeit >
 --PALADINRetribution
 L["PALADINRetribution"] = "Stärke > Tempo > Vielseitigkeit = Kritischer Trefferwert > Meisterschaft"
 
---HUNTERBeastMeisterschaft
+--HUNTERBeastMastery
 L["HUNTERBeastMastery"] = "Tempo (30%) > Kritischer Trefferwert (44%) > Meisterschaft (5400) > Vielseitigkeit"
 --HUNTERMarksmanship
 L["HUNTERMarksmanship"] = "Tempo (30%) > Kritischer Trefferwert (44%) > Meisterschaft = Vielseitigkeit"
