@@ -138,7 +138,7 @@ function ImportantStats:GetSpecializationName(id)
 	elseif id == 252 then 
 		spec = "Unholy"
 	elseif id == 253 then 
-		spec = "Beast Mastery"
+		spec = "BeastMastery"
 	elseif id == 254 then 
 		spec = "Marksmanship"
 	elseif id == 255 then 
@@ -314,7 +314,7 @@ function ImportantStats:OnInitialize()
 					desc = L["You can put your own custom priority strings here"],
 					args = {
 						spec1 = {
-							name = L["Beast Mastery"],
+							name = L["BeastMastery"],
 							type = "input",
 							width = "full",
 							set = "SetPriority",

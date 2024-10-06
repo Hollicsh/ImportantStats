@@ -122,7 +122,7 @@ L["Retribution"] = "Vendetta"
 L["Protection"] = "Protezione"
 
 -- Hunter
-L["Beast Mastery"] = "Maestria delle Bestie"
+L["BeastMastery"] = "Maestria delle Bestie"
 L["Marksmanship"] = "Precisione"
 L["Survival"] = "Sopravvivenza"
 

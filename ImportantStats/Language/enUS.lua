@@ -121,7 +121,7 @@ L["Holy"] = "Holy"
 L["Retribution"] = "Retribution"
 
 -- Hunter
-L["Beast Mastery"] = "Beast Mastery"
+L["BeastMastery"] = "BeastMastery"
 L["Marksmanship"] = "Marksmanship"
 L["Survival"] = "Survival"
 
