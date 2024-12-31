@@ -32,14 +32,14 @@ L["PALADINHoly"] = "Raid: Intelletto > Critico > Celerità > Maestria > Versatil
 --PALADINProtection
 L["PALADINProtection"] = "Forza > Celerità ≥ Maestria ≥ Versatilità > Critico"
 --PALADINRetribution
-L["PALADINRetribution"] = "Maestria > Forza > Critico = Celerità > Versatilità"
+L["PALADINRetribution"] = "Forza > Maestria > Critico = Celerità > Versatilità"
 
 --HUNTERBeastMastery
-L["HUNTERBeastMastery"] = "Single-Target: Celerità > Critico > Maestria > Versatilità \n Multi-Target: Maestria > Celerità > Critico > Versatilità"
+L["HUNTERBeastMastery"] = "Agilità > Celerità > Critico > Maestria > Versatilità"
 --HUNTERMarksmanship
 L["HUNTERMarksmanship"] = "Danno Arma > Critico > Maestria >  > Versatilità > Celerità"
 --HUNTERSurvival
-L["HUNTERSurvival"] = "Maestria > Agilità > Celerità > Critico > Versatilità"
+L["HUNTERSurvival"] = "Agilità > Critico > Celerità = Maestria > Versatilità"
 
 --ROGUEAssassination
 L["ROGUEAssassination"] = "Critico > Maestria > Versatilità > Celerità"
@@ -56,18 +56,18 @@ L["PRIESTHoly"] = "Myth+: Intelletto > Critico = Celerità > Versatilità > Maes
 L["PRIESTShadow"] = "Intelletto > Celerità > Maestria > Critico > Versatilità"
 
 --SHAMANElemental
-L["SHAMANElemental"] = "Fire: Intelletto > Celerità >> Versatilità > Maestria >> Critico \n Lightning: Intelletto > Celerità >> Critico > Versatilità >> Maestria"
+L["SHAMANElemental"] = "Intelletto > Maestria > Celerità > Critico > Versatilità"
 --SHAMANEnhancement
 L["SHAMANEnhancement"] = "Totemic: Agilità = Celerità > Maestria > Versatilità > Critico \n Stormbringer: Celerità = Agilità > Maestria > Critico > Versatilità"
 --SHAMANRestoration
-L["SHAMANRestoration"] = "Intelletto > Versatilità = Critico > Celerità = Maestria"
+L["SHAMANRestoration"] = "Intelletto > Critico > Versatilità > Celerità = Maestria"
 
 --MAGEArcane
 L["MAGEArcane"] = "Intelletto > Maestria = Celerità ≥ Versatilità ≥ Critico"
 --MAGEFire
 L["MAGEFire"] = "Intelletto > Celerità > Versatilità > Maestria > Critico"
 --MAGEFrost
-L["MAGEFrost"] = "Intelletto > Maestria > Celerità > Critico (33.34%) > Versatilità"
+L["MAGEFrost"] = "Intelletto > Celerità > Critico to 33.34% > Versatilità > Maestria"
 
 --WARLOCKAffliction
 L["WARLOCKAffliction"] = "Intelletto > Maestria = Critico > Celerità > Versatilità"
@@ -86,7 +86,7 @@ L["DRUIDGuardian"] = "Sopravvivenza: Agilità > Celerità > Versatilità > Maest
 L["DRUIDRestoration"] = "Raid: Intelletto > Celerità > Maestria > Versatilità > Critico \n Dungeon Healing: Intelletto > Maestria = Celerità > Versatilità > Critico \n Dungeon Damage Dealing: Intelletto > Celerità > Versatilità > Critico > Maestria"
 
 --MONKBrewmaster
-L["MONKBrewmaster"] = "Defensive: Agilità > Versatilità = Maestria = Critico > Celerità \n Offensive: Agilità > Versatilità = Critico > Maestria > Celerità"
+L["MONKBrewmaster"] = "Agilità = Armor > Versatilità = Maestria = Critico > Celerità"
 --MONKMistweaver
 L["MONKMistweaver"] = "Myth+: Intelletto > Celerità > Critico ≥ Maestria > Versatilità \n Raid: Intelletto > Celerità > Critico > Versatilità = Maestria"
 --MONKWindwalker
@@ -104,7 +104,7 @@ L["EVOKERDevastation"] = "Intelletto > Critico >= Versatilità = Maestria = Cele
 --EVOKERPreservation
 L["EVOKERPreservation"] = "Myth+: Intelletto > Critico > Celerità > Versatilità > Maestria \n Raid: Intelletto > Maestria > Critico > Versatilità > Celerità"
 --EVOKERAugmentation
-L["EVOKERAugmentation"] = "Chronowarden: Intelletto > Celerità (10%) > Maestria = Critico > Celerità > Versatilità \n Scalecommander: Intelletto > Celerità (10%) > Maestria > Critico = Celerità > Versatilità"
+L["EVOKERAugmentation"] = "Intelletto > Celerità to 20-25% = Maestria > Critico > Versatilità"
 
 --Optionen
 L["ImportantStats"] = "ImportantStats"
